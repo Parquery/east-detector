@@ -13,7 +13,7 @@ import setuptools
 setuptools.setup(
     name='eastdetector',
 
-    version='1.0.2',
+    version='1.0.3',
 
     description='EAST text detector',
 
@@ -45,5 +45,5 @@ setuptools.setup(
 
     packages=setuptools.find_packages(exclude=[]),
 
-    install_requires=["numpy", "lanms", "tensorflow==1.4.1", "opencv-python"],
+    install_requires=["numpy", "lanms", "tensorflow>=1.15.2", "opencv-python"],
 )
